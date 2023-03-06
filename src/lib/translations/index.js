@@ -1,6 +1,10 @@
 import i18n from 'sveltekit-i18n';
 import lang from './lang.json';
 
+/**
+ * https://github.com/sveltekit-i18n/lib
+ */
+
 const locale_keys = Object.keys(lang);
 const loaders = locale_keys.map((locale) => ({
 	locale,
